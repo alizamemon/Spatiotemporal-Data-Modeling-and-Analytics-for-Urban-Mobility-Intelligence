@@ -1,0 +1,6 @@
+# Heavy Data Files
+*.csv
+202502-citibike-tripdata/
+
+# Temporary Excel files
+~$*.xlsx
