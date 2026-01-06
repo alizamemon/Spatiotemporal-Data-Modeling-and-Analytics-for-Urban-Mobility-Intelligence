@@ -23,28 +23,21 @@ Through the processed data, I generated several key visualizations to understand
 <img width="815" height="444" alt="Peak Hour Analysis" src="https://github.com/user-attachments/assets/39958c29-9e0b-448a-b89c-ea2a28f602f9" />
 
 * **Metric:** `Ride_hour` vs `Total_Trips`
-* **Insight:** Identified clear bimodal peaks during 8:00 AM and 5:00 PM - 6:00 PM, confirming that the majority of users are daily commuters.
 
 ### 2. Station Load & Popularity
 <img width="974" height="447" alt="Station Load Analysis" src="https://github.com/user-attachments/assets/2002b1a1-416b-40fc-8060-37197e1bf6f2" />
 
 * **Metric:** `Station_Name` vs `Total_trips`
-* **Insight:** Highlighted the top 10 high-traffic stations, providing critical data for bike redistribution and maintenance scheduling.
 
 ### 3. User Segmentation (Ridership Patterns)
 <img width="431" height="338" alt="Member vs Casual Patterns" src="https://github.com/user-attachments/assets/9ecd056e-9406-4c2b-a22d-357c10d8965a" />
 
 * **Metric:** `Member_Type` vs `Total_trips` & `Avg_Duration_Minutes`
-* **Insight:** While "Members" take more trips, "Casual" riders have a significantly higher average trip duration, indicating recreational use versus commuter use.
-
+  
 ### 4. Geospatial Heat Map (3D Visualization)
 <img width="759" height="541" alt="Geospatial 3D Map" src="https://github.com/user-attachments/assets/6b329f18-6be4-46a1-ac0d-954e168c8bec" />
 
 * **Metric:** `Station_Name`, `Latitude`, `Longitude` weighted by `Total_trips`
-* **Insight:** A 3D geospatial distribution of trip density across NYC, showing concentrated demand in Manhattan and Brooklyn transit hubs.
-
-
-
 
 ## How to Run
 1. Execute the `citibike_pipeline.sql` script in MS SQL Server.
